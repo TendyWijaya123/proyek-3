@@ -1,0 +1,67 @@
+.People-container{
+    display: flex;
+    height: 80vh;
+    background-color:honeydew ;
+    gap: 20px;
+    
+}
+h1{
+    text-align: center;
+}
+
+.People-container > div {
+    border: solid lightgray;
+    flex: 1;
+    overflow-x: hidden;
+    overflow-y:scroll ;
+}
+
+.unfriend-container > div{
+    height: 20%;
+    border: solid lightgray;
+    display: flex;
+}
+
+.friend-container > div{
+    height: 20%;
+    border: solid lightgray;
+    display: flex;
+}
+
+.people-item img {
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    flex: 1;
+}
+
+.people-item >div{
+    display: block;
+    border: none;
+    height: 100%;
+    flex: 3;
+}
+.people-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.people-item button{
+    flex: 1;
+    height:20%;
+    border-radius:15% ;
+    -webkit-border-radius:15% ;
+    -moz-border-radius:15% ;
+    -ms-border-radius:15% ;
+    -o-border-radius:15% ;
+    background-color:blue;
+    color: white;
+}
+
+.friend-container h2, .unfriend-container h2{
+    text-align: center;
+    color: gray;
+}
